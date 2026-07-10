@@ -58,24 +58,31 @@ Learning:
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif">
 
-## 📊 Live Stats (self-hosted, no third-party downtime)
+## 📊 Live Stats <sub><i>(self-hosted — animated, no third-party downtime)</i></sub>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Gopichanime007/Gopichanime007/output/animated-stats.svg" />
+  <img src="https://raw.githubusercontent.com/Gopichanime007/Gopichanime007/output/animated-stats.svg" alt="Animated GitHub Stats" />
 </p>
 
-## 🏆 Trophy Case
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Gopichanime007/Gopichanime007/output/animated-trophies.svg" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Gopichanime007&theme=radical" alt="GitHub Streak" height="180"/>
 </p>
-🐍 Contribution Snake
+
+## 🏆 Trophy Case <sub><i>(self-hosted — glows when a milestone is earned)</i></sub>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gopichanime007/Gopichanime007/output/animated-trophies.svg" alt="Animated GitHub Trophies" />
+</p>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif">
+
+## 🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Gopichanime007/Gopichanime007/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
-ℹ️ The snake animation needs a one-time GitHub Actions setup (see notes below) — it's not automatic yet.
-
-
+> ℹ️ Requires the `profile-animations.yml` GitHub Actions workflow to be set up once (generates this + the stats/trophies above).
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif">
 
