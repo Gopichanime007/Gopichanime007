@@ -1,0 +1,40 @@
+<svg width="520" height="150" viewBox="0 0 520 150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="519" height="149" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#ffffff" font-family="Segoe UI, sans-serif">🏆 Trophy Case</text>
+  
+      <g transform="translate(65, 75)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
+        <circle r="38" fill="none" stroke="#3a3f4b" stroke-width="2">
+          
+        </circle>
+        <text text-anchor="middle" y="10" font-size="30" opacity="0.35">🏅</text>
+        <text text-anchor="middle" y="58" font-size="11" fill="#c9c9c9" font-family="Segoe UI, sans-serif">Repo Builder</text>
+      </g>
+
+      <g transform="translate(195, 75)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze" />
+        <circle r="38" fill="none" stroke="#3a3f4b" stroke-width="2">
+          
+        </circle>
+        <text text-anchor="middle" y="10" font-size="30" opacity="0.35">⭐</text>
+        <text text-anchor="middle" y="58" font-size="11" fill="#c9c9c9" font-family="Segoe UI, sans-serif">Star Collector</text>
+      </g>
+
+      <g transform="translate(325, 75)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.4s" fill="freeze" />
+        <circle r="38" fill="none" stroke="#3a3f4b" stroke-width="2">
+          
+        </circle>
+        <text text-anchor="middle" y="10" font-size="30" opacity="0.35">🤝</text>
+        <text text-anchor="middle" y="58" font-size="11" fill="#c9c9c9" font-family="Segoe UI, sans-serif">Community</text>
+      </g>
+
+      <g transform="translate(455, 75)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6000000000000001s" fill="freeze" />
+        <circle r="38" fill="none" stroke="#3a3f4b" stroke-width="2">
+          
+        </circle>
+        <text text-anchor="middle" y="10" font-size="30" opacity="0.35">🍴</text>
+        <text text-anchor="middle" y="58" font-size="11" fill="#c9c9c9" font-family="Segoe UI, sans-serif">Forked Often</text>
+      </g>
+</svg>
