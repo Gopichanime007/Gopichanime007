@@ -58,32 +58,30 @@ Learning:
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif">
 
-## 📊 GitHub Stats
+📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Gopichanime007&show_icons=true&theme=radical&cache_seconds=86400" alt="GitHub Stats" height="180"/>
   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Gopichanime007&theme=radical" alt="GitHub Streak" height="180"/>
 </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopichanime007&layout=compact&theme=radical&cache_seconds=86400&hide=html" alt="Top Languages" height="180"/>
+</p>
+🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopichanime007&layout=compact&theme=radical&cache_seconds=86400" alt="Top Languages" height="180"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Gopichanime007&theme=radical&no-frame=true&row=1&column=6&margin-w=8" alt="GitHub Trophies" />
 </p>
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Gopichanime007&theme=radical&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
-</p>
-
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif">
-
-## 🐍 Contribution Snake
+🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Gopichanime007/Gopichanime007/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
-> ℹ️ The snake animation needs a one-time GitHub Actions setup (see notes below) — it's not automatic yet.
+ℹ️ The snake animation needs a one-time GitHub Actions setup (see notes below) — it's not automatic yet.
+
+
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif">
 
