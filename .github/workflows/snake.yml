@@ -1,20 +1,32 @@
-name: Generate Snake Animation
+name: Generate Profile Animations
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # runs every 12 hours
-  workflow_dispatch: {}      # lets you trigger it manually
+    - cron: "0 */12 * * *"
+  workflow_dispatch: {}
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
-  generate:
-    permissions:
-      contents: write
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation SVG
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Make dist folder
+        run: mkdir -p dist
+
+      - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: Gopichanime007
@@ -22,10 +34,17 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push output to "output" branch
+      - name: Generate custom stats & trophies
+        run: node generate-stats.js
+        env:
+          GH_USERNAME: Gopichanime007
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish everything to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
